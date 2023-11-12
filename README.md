@@ -26,16 +26,16 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [D
 $ git clone https://github.com/OpenUp-LabTakizawa/nginx-proxy
 ```
 
-### 2. Set variables in the .env file
-https://github.com/OpenUp-LabTakizawa/nginx-proxy/blob/eccfc56bfb6aa6d7d0a30bc93ecee517b45459a9/.env#L1-L2
-
+### 2. Set variables in the `.env` file
 `DEFAULT_EMAIL` is used by Let's Encrypt in order to warn you about expiring certificates and allow you to recover your account.  
 `NETWORK` is whatever you like.
 
-```
+```diff
 # For example
-DEFAULT_EMAIL=example@gmail.com
-NETWORK=nginx_web
+- DEFAULT_EMAIL=
+- NETWORK=
++ DEFAULT_EMAIL=example@gmail.com
++ NETWORK=nginx_web
 ```
 ### 3. Docker Compose
 ```bash
