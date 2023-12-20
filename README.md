@@ -19,7 +19,7 @@
   Set up a container running nginx and docker-gen with SSL certificates automatically🤖
 </p>
 
-## ⚒️ Usage
+## 📃 Usage
 
 ### 1. Clone
 To clone and run this application, you'll need [Git](https://git-scm.com) and [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed on your computer.  
@@ -53,7 +53,7 @@ $ docker compose up -d
 $ docker compose logs
 ```
 
-## 🤝 Contribute
+## 🫶 Contribute
 
 Here’s how we suggest you go about proposing a change to this project:
 
@@ -80,7 +80,7 @@ This software uses the following open source packages:
 - [nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
 - [acme-companion](https://github.com/nginx-proxy/acme-companion)
 
-## 📄 License
+## ⚖️ License
 
 The Apache License Version 2.0 (2023) - [OpenUp-LabTakizawa](https://github.com/OpenUp-LabTakizawa).  
 Please have a look at the [LICENSE](https://github.com/OpenUp-LabTakizawa/nginx-proxy/blob/main/LICENSE) for more details.
